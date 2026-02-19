@@ -11,5 +11,5 @@ services:
       - "5000-5500:5000-5500"
       - "5000-5150:5000-5150/udp"
     volumes:
-      - /traccar/logs:/opt/traccar/logs:rw
-      - /traccar/data:/opt/traccar/data:rw
+      - ./traccar/logs:/opt/traccar/logs:rw
+      - ./traccar/data:/opt/traccar/data:rw
